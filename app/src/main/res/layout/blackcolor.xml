@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/wall19"
+    android:orientation="horizontal"
+    android:gravity="top|center_horizontal">
+
+    <Button
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon"
+        android:id="@+id/but_Back"
+        android:background="@drawable/back_icon"
+        android:layout_gravity="center_vertical"
+        />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/black"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="40dp" />
+
+    <Button
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon"
+        android:id="@+id/but_Next"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/forward_icon" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AutismLearn</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">หมวดคำศัพท์</string>
+    <string name="test">ทดสอบ</string>
+    <string name="ImageButton">การใช้งาน </string>
+</resources>
